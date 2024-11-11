@@ -18,6 +18,8 @@ const vlife = () => {
         </p>
       </div>
 
+
+
       <div>
         <p className="text-center lg:pl-32 lg:pr-32 p-5 text-xl">
           India’s rural landscape is rich with potential, but many communities
