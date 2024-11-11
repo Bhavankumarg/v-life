@@ -1,5 +1,5 @@
 import React from "react";
-import CarouselGroups from "./CarouselGroups"
+import CarouselGroups from "./CarouselGroups";
 const OurCommunities = () => {
   return (
     <>
@@ -78,7 +78,7 @@ const OurCommunities = () => {
           </div>
         </div>
       </div>
-<CarouselGroups/>
+      <CarouselGroups />
       <div>
         <button className="bg-[#7F3F97] flex m-auto rounded-xl p-3 my-8 w-52 justify-center text-white">
           Meet Our Communities
@@ -87,7 +87,9 @@ const OurCommunities = () => {
 
       <div className="bg-[#00AF8B] text-center text-white">
         <div className="container mx-auto">
-          <h2 className="text-[40px] font-bold pt-10">Enabling Credit to Farmers: Retail Loan</h2>
+          <h2 className="text-[40px] font-bold pt-10">
+            Enabling Credit to Farmers: Retail Loan
+          </h2>
           <p className="text-xl font-light lg:pl-36 lg:pr-36 p-5 pb-10">
             Individual farmers, particularly small and marginal farmers, often
             struggle with financial barriers that limit their ability to invest

@@ -37,12 +37,12 @@ const Content = React.forwardRef((props, ref) => {
           autoPlay={false}
           autoPlaySpeed={2000}
           //   customTransition="all .5"
-          dotListClass="custom-dot-list"
+          dotListClass="custom-dot-lists"
           removeArrowOnDeviceType={['tablet', 'mobile', 'desktop']}
           className="h-[400px] bg-transparent container mx-auto"
         >
           {FourCarousel.map((items, index) => (
-            <div class="p-5 bg-[#7F3F97] border text-white rounded-3xl h-60">
+            <div class="p-5 bg-[#7F3F97] border text-white rounded-3xl h-60 -mt-20 lg:-mt-0">
             <h2 className="text-[25px]">{items.title}</h2>
             <p class="mt-4 font-light">
               {items.desc}

@@ -6,7 +6,7 @@ const OurRegion = () => {
     <>
       <div className="lg:flex container mx-auto my-20 hidden lg:block">
         {/* Left side with text content */}
-        <div className="bg-[#00AF8B] p-8 text-white w-1/2">
+        <div className="bg-[#00AF8B] p-8 text-white w-1/2 h-auto">
           <h2 className="text-3xl font-bold mb-4">Our Regions</h2>
           <p className="mb-6 text-[25px]">
             V-Life is committed to making a lasting impact across various

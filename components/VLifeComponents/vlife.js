@@ -5,15 +5,15 @@ const vlife = () => {
   return (
     <>
       <div className="pb-10">
-        <div className="shadow-md z-50 bg-white shadow-gray-200">
-          <h2 className="text-[50px] text-[#7F3F97] text-center font-bold">
+        <div className="shadow-md z-50 bg-white shadow-gray-200 fixed top-0 left-0 w-full">
+          <h2 className="text-[40px] sm:text-[50px] text-[#7F3F97] text-center font-bold ">
             V-Life
           </h2>
         </div>
       </div>
 
       <div className="lg:bg-[url('/Vlife/v-life-banner.png')] bg-[url('/Vlife/mobile-banner1.png')] bg-cover bg-center h-[100vh] w-full z-0">
-        <p className="lg:text-[50px] text-[30px] text-[#00AF8B] text-center z-0 font-bold">
+        <p className="lg:text-[50px] text-[30px] text-[#00AF8B] text-center z-0 font-bold mt-10">
           Empowering Rural Communities <br /> for a Sustainable Future
         </p>
       </div>
@@ -32,9 +32,9 @@ const vlife = () => {
         </button>
       </div>
 
-      <div className="lg:flex justify-center mt-20">
+      <div className="lg:flex justify-center lg:mt-20">
         <div>
-          <p className="text-[#7F3F97] text-[40px] lg:-rotate-90 lg:mt-36 font-bold text-center">
+          <p className="text-[#7F3F97] text-[40px] lg:-rotate-90 lg:mt-36 mt-8 mb-4 font-bold text-center">
             What is V-Life
           </p>
         </div>
@@ -61,13 +61,14 @@ const vlife = () => {
         </button>
       </div>
 
-      <div className="lg:bg-[url('/Vlife/Banner2.png')] bg-[url('/Vlife/mobile-banner-2.png')] bg-cover bg-center h-[50vh] w-full z-0">
-        <div>
-          <p className="lg:text-[150px] text-[54px] text-white text-center z-0 font-bold relative lg:top-[246px] top-[310px] ">
-            Goals of V-Life
-          </p>
-        </div>
-      </div>
+      <div className="lg:bg-[url('/Vlife/Banner2.png')] bg-[url('/Vlife/mobile-banner-2.png')] bg-cover bg-center h-[50vh] w-full z-0 relative">
+  <div className="absolute bottom-0 w-full text-center">
+    <p className="lg:text-[150px] lg:-mb-14 -mb-5 text-[54px] text-white font-bold">
+      Goals of V-Life
+    </p>
+  </div>
+</div>
+
     </>
   );
 };

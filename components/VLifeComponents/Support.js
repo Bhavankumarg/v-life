@@ -8,10 +8,10 @@ const SupportBeyondCredit = () => {
     <>
      <div>
         <div className="container mx-auto">
-            <Image src="/Vlife/cow.jpg" width={500} height={400} className="w-full lg:mt-20" />
+            <Image src="/Vlife/milk.jpg" width={500} height={400} className="w-[100%] lg:mt-20" />
         </div>
       </div>
-      <div className="bg-[#7F3F97] text-white space-y-0 px-6 container mx-auto lg:-mt-20 -mt-1 py-10">
+      <div className="bg-[#7F3F97] text-white space-y-0 px-6 container mx-auto lg:-mt-10 -mt-1 py-10">
         <div className=" mx-auto">
           <h1 className="text-center text-3xl font-semibold mb-6">
             Support Beyond Credit
@@ -46,7 +46,7 @@ const SupportBeyondCredit = () => {
 
       <div className="container mx-auto">
         <div>
-          <h2 className="text-[40px] text-[#7F3F97] font-bold text-center mt-6 py-10">
+          <h2 className="text-[40px] text-[#7F3F97] font-bold text-center mt-6 lg:py-10">
             Performance so far
           </h2>
           <Image

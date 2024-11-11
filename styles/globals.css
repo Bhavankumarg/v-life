@@ -63,3 +63,6 @@ body {
 ::placeholder {
   color: black;
 }
+.custom-dot-lists{
+  margin-bottom: 80px !important;
+}
