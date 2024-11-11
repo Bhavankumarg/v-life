@@ -59,8 +59,8 @@ const CaouselVlife = () => {
       <FourCarouselSlider />
         {/* card section end */}
 
-        <div>
-          <button className="bg-[#00AF8B] m-auto text-white lg:my-10 flex p-3 rounded-xl font-bold lg:-mt-0 -mt-10">
+        <div className="lg:py-14">
+          <button className="bg-[#00AF8B] m-auto text-white flex p-3 rounded-xl font-bold lg:-mt-0 -mt-10">
             Learn How We Make an Impact
           </button>
         </div>

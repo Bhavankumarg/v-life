@@ -61,13 +61,14 @@ const vlife = () => {
         </button>
       </div>
 
-      <div className="lg:bg-[url('/Vlife/Banner2.png')] bg-[url('/Vlife/mobile-banner-2.png')] bg-cover bg-center h-[50vh] w-full z-0">
-        <div>
-          <p className="lg:text-[150px] text-[54px] text-white text-center z-0 font-bold relative lg:top-[246px] top-[340px] ">
-            Goals of V-Life
-          </p>
-        </div>
-      </div>
+      <div className="lg:bg-[url('/Vlife/Banner2.png')] bg-[url('/Vlife/mobile-banner-2.png')] bg-cover bg-center h-[50vh] w-full z-0 relative">
+  <div className="absolute bottom-0 w-full text-center">
+    <p className="lg:text-[150px] lg:-mb-14 -mb-5 text-[54px] text-white font-bold">
+      Goals of V-Life
+    </p>
+  </div>
+</div>
+
     </>
   );
 };
